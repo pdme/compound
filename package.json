@@ -1,0 +1,15 @@
+{
+  "name": "compound",
+  "version": "1.0.0",
+  "description": "Like compose, but with rest params being also passed in",
+  "main": "src/compound.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": ["util", "composition", "redux"],
+  "author": "pdme",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^21.1.0"
+  }
+}
