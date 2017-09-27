@@ -11,7 +11,7 @@ const c = compound(sum, multiply);
 c(3, 4) // 16
 ```
 
-This is particularly useful in redux reducers, for example, when you want to apply multiple modifiers to the state object.
+This is particularly useful in redux reducers, for example, when you want to apply multiple modifiers to the state, using the same action object.
 
 ```
 const reducer = (state, action) => {
