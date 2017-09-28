@@ -1,5 +1,7 @@
 # compound
 
+(Available on *npm* as `compound-util`)
+
 Like compose, but with rest params also being passed in.
 
 The first param is the return value of the previous function. The rest params remain unchanged, e.g.:
