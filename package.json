@@ -1,12 +1,14 @@
 {
   "name": "compound-util",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Like compose, but with rest params being also passed in",
   "main": "src/compound.js",
   "respository": {
     "type": "git",
     "url": "https://github.com/pdme/compound"
   },
+  "homepage": "https://github.com/pdme/compound",
+  "bugs": "https://github.com/pdme/compound/issues",
   "scripts": {
     "test": "jest"
   },
