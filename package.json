@@ -1,6 +1,6 @@
 {
   "name": "compound-util",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Like compose, but with rest params being also passed in",
   "main": "lib/compound.js",
   "respository": {
@@ -13,7 +13,11 @@
     "build": "babel src -d lib",
     "test": "jest"
   },
-  "keywords": ["util", "composition", "redux"],
+  "keywords": [
+    "util",
+    "composition",
+    "redux"
+  ],
   "author": "pdme",
   "license": "ISC",
   "devDependencies": {
