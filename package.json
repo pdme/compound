@@ -1,6 +1,6 @@
 {
   "name": "compound-util",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Like compose, but with rest params being also passed in",
   "main": "lib/compound.js",
   "respository": {
