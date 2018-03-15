@@ -2,7 +2,7 @@
   "name": "compound-util",
   "version": "0.0.3",
   "description": "Like compose, but with rest params being also passed in",
-  "main": "src/compound.js",
+  "main": "lib/compound.js",
   "respository": {
     "type": "git",
     "url": "https://github.com/pdme/compound"
@@ -10,12 +10,15 @@
   "homepage": "https://github.com/pdme/compound",
   "bugs": "https://github.com/pdme/compound/issues",
   "scripts": {
+    "build": "babel src -d lib",
     "test": "jest"
   },
   "keywords": ["util", "composition", "redux"],
   "author": "pdme",
   "license": "ISC",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "jest": "^21.1.0"
   }
 }
